@@ -1,0 +1,26 @@
+.c-sectionProject{
+    width: 80vw;
+    margin: 0 auto;
+
+    h3{
+        font-size: 20px;
+        padding-bottom: 4.0vh;
+    }
+}
+.c-sectionProject__wrapper {
+    display: block;
+    padding-bottom: 6.0vh;
+
+    h4{
+        padding-top: 3.0vh;
+        padding-bottom: 0.5vh;
+        border-bottom: solid 1px #121212;
+        // width: 50%;
+    }
+}
+.c-sectionProject__wrapper h4:nth-of-type(1){
+    padding-top: 0;
+}
+.c-sectionProject__item a:hover{
+    color:  #DED8D3;
+}

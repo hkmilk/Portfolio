@@ -1,0 +1,40 @@
+
+        $btnWidth: 32.53px;
+        $btnHeight: 2px;
+    
+    .p-button--menu {
+        top: 5.4vh;
+        position: absolute;
+        right: 76px;
+    }  
+    .p-button--menu::before,
+    .p-button--menu::after {
+        content: "";
+        width: $btnWidth;
+        height: $btnHeight;
+        position: absolute;
+        background-color: #121212;
+        border-radius: 2px;
+    }
+    .p-button--menu::before{
+        position: absolute;
+        top: 20px;
+        left: 0%;
+        right: 2.5vw;
+        transform: rotate(-135deg);
+    }
+    .p-button--menu::after{
+        position: absolute;
+        top: 20px;
+        left: 0%;
+        right: 2.5vw;
+        transform: rotate(-45deg);
+    }
+
+ /*  TB PC    */
+  @media screen and (min-width: 429px) {
+.p-button--menu {
+    top: 14.5vh;
+    right: 15.0vw;
+}  
+  }

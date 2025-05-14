@@ -1,0 +1,31 @@
+   /*   SP  TB  */
+    .l-navPage {
+        display: flex;
+        background-color: #ffffff;
+        width: 100vw;
+        height: 81vh;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        z-index: 9999;
+        transition: all 0.2s 0s ease;
+    }
+    
+    .l-navPage.is-open {
+        left: 0%;
+    }
+    
+        body.is-open{
+            position: fixed;
+            overflow: hidden;
+         }
+
+
+   /*   PC    */
+   @media screen and (min-width: 961px) {
+.l-navPage {
+    display: flex;
+    height: 81.5vh;
+}
+
+}  

@@ -1,0 +1,47 @@
+.l-container{
+    display: block;
+    height: 81.0vh;
+    background-color: #000000;
+    z-index: 100;
+}
+
+.l-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    position: relative;
+    top: 19.4vh;
+}
+.l-header__item{
+    display: block;
+    align-items: center;
+}
+
+h1{
+    font-size: 96px;
+    font-weight: 1;
+    font-family: "League Gothic";
+    line-height: 1.0;
+
+}
+h2{
+    font-size: 32px;
+    font-family: "League Spartan";
+    font-weight: 1;
+}
+
+// TB〜PC 共通スタイル
+@media screen and (min-width: 429px) {
+    .l-header__item{
+        display: flex;
+    }
+    h1{
+        line-height: inherit;
+    }
+    h2{
+        margin-top: -25px;
+    }
+}
