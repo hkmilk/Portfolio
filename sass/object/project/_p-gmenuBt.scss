@@ -1,0 +1,54 @@
+ 
+        $btnWidth: 35.94px;
+        $btnHeight: 4px;
+
+
+    .p-hamburger{
+        width: 35.94px;
+        height: 27px;
+        position: relative;
+        right: 36px;
+        top: 1.0vh;
+
+    &::before,
+    &::after {
+        content: "";
+        width: $btnWidth;
+        height: $btnHeight;
+        display: block;
+        position: absolute;
+        background-color: #FFFFFF;
+        display: block;
+        border-radius: 3px;
+    }
+}
+.p-hamburger::before {
+    width: ($btnWidth - 14.38px);
+    top: 2.7vh;
+    left: 14.38px;
+}
+.p-hamburger::after {
+    bottom: 2.5vh;
+}
+.p-hamburger > span {
+    width: ($btnWidth - 7.19px);
+    height: $btnHeight;
+    font-size: 0;
+    position: absolute;
+    top: 13px;
+    left: calc(50% - (21.56px / 2 ));
+    right: 3.59px;
+    padding: 0px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+
+
+// TB〜PC 共通スタイル
+@media screen and (min-width: 429px) {
+.p-hamburger{
+    right: 12.0vw;
+    top: 2.9vh;
+}
+}

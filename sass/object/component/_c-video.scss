@@ -1,0 +1,14 @@
+.c-video{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+ /*  TB  PC    */
+   @media screen and (min-width: 429px) {
+    .c-video{
+    width: 50vw;
+   }
+}

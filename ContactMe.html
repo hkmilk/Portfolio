@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact me">
+    <title>Contact me</title>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=M+PLUS+1p&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@100..900&family=M+PLUS+1p&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./css/ress.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/menu.js"></script>
+</head>
+<body>
+<main>
+<div class ="l-container">
+    <nav class="c-nav">
+        <div class="c-nav__item"><a href="index.html"><img src="images/KK_transparent-.png" alt="logo"></a></div>
+        <button class="p-hamburger p-gmenu--bt js-hamburger">
+            <span>menuボタン</span>
+        </button>
+    </nav>
+    <header class="l-header">
+        <div class="l-header__item">
+            <h1>CONTACT</h1>
+            <h1>ME</h1>
+        </div>
+       <h2>KK Works</h2>
+    </header>
+</div>
+<nav class="l-navPage">
+    <button class="p-button p-button--menu js-hamburger"></button>
+    <div class="p-navPageWrapper">
+        <div class="p-verticalText">
+            <span>U</span>
+            <span>N</span>
+            <span>E</span>
+            <span>M</span>
+        </div>
+        <ul class="p-navMenu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="allProject.html">PROJECTS</a></li>
+            <li><a href="aboutMe.html">ABOUT</a></li>
+            <li><a href="ContactMe.html">CONTACT</a></li>
+        </ul>
+        <div class="p-navContact">
+            <p>ご訪問ありがとうございます</p>
+            <div class="p-navIcon">
+                <a href="https://app.build-up.info/enterprises/bEDI6AXZ/portfolio/bAOygjMgoTd">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-19.3c-2.7 1.1-5.4 2-8.2 2.7l-60.1 15c-3 .7-6 1.2-9 1.4c-.9 .1-1.8 .2-2.7 .2l-64 0c-6.1 0-11.6-3.4-14.3-8.8l-8.8-17.7c-1.7-3.4-5.1-5.5-8.8-5.5s-7.2 2.1-8.8 5.5l-8.8 17.7c-2.9 5.9-9.2 9.4-15.7 8.8s-12.1-5.1-13.9-11.3L144 381l-9.8 32.8c-6.1 20.3-24.8 34.2-46 34.2L80 448c-8.8 0-16-7.2-16-16s7.2-16 16-16l8.2 0c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.8 25.6 19.1l11.6 38.6c7.4-6.2 16.8-9.7 26.8-9.7c15.9 0 30.4 9 37.5 23.2l4.4 8.8 8.9 0c-3.1-8.8-3.7-18.4-1.4-27.8l15-60.1c2.8-11.3 8.6-21.5 16.8-29.7L384 203.6l0-43.6-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM549.8 139.7c-15.6-15.6-40.9-15.6-56.6 0l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4zM311.9 321c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L512.1 262.7l-71-71L311.9 321z"/>
+                    </svg></a>
+            </div>
+        </div>   
+    </div>
+</nav>
+<section class ="p-profile__wrapper">
+    <h3>Contact me</h3>
+    <form class="c-contactForm" action="https://formspree.io/f/mkgrbkob" method="POST">
+        <div class="c-contactForm__group">
+          <label for="name">Name</label>
+          <input type="text" id ="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="c-contactForm__group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="e-mail" placeholder="email@example.com" required>
+        </div>
+        <div class="c-contactForm__group">
+           <label for="message">Message</label>
+           <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        </div>
+        <input type="hidden" name="_redirect" value="https://your-username.github.io/your-repo-name/thanks.html">
+        <button type="submit" class="p-button p-button--projectNav p-button__send">送信</button>
+    </form> 
+</section>
+</main>
+<footer class="l-footer">
+    <div class="c-footer__menu">
+         <ul class="c-footer__list">
+            <li><a href="allProject.html">PROJECTS</a></li>
+            <li><a href="aboutMe.html">ABOUT ME</a></li>
+            <li><a href="ContactMe.html">CONTACT</a></li>
+         </ul>
+         <div class="c-footer__image"><a href="index.html"><img src="./images/KK_transparent-.png"  alt="footer"></a></div>
+    </div>
+</footer>
+</body>
+</html>

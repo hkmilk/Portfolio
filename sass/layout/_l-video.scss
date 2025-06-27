@@ -1,0 +1,31 @@
+    h3{
+        padding: 4.0vh 0;
+        font-family: "League Spartan";
+        font-size: 32px;
+        font-weight: 700;
+        width: 70vw;
+        margin: 0 auto;
+    }
+.l-video{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+   
+    a{
+        width: 100vw;
+        margin: 0 auto;
+    }
+} 
+ 
+ /*  TB  PC    */
+   @media screen and (min-width: 429px) {
+.l-video{
+    width: 70vw;
+
+    a{
+        width: 50vw;
+
+    }
+  }
+}

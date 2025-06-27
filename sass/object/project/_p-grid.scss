@@ -1,0 +1,107 @@
+.p-grid{
+    padding-top: 6.0vh;
+    margin: 0 auto;
+    width: 80.0vw;
+    height: auto;
+    gap: clamp(2px, 1.0vw, 20px);
+
+    >h2{
+        font-family: "League Spartan";
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 2.0vh;
+    }
+}
+
+.p-grid__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2 , minmax(0, 1fr));
+    gap: 3px;
+
+}
+.p-gridSkill{
+    display: grid;
+    grid-template-columns: repeat(2 , minmax(0, 1fr));
+}
+.p-grid__item{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    >img{
+        width: 20px;
+        height: auto;
+        padding-right: 5px;
+    }
+}
+    .p-grid__item:nth-of-type(8) img{
+        width: 18px;
+    }
+
+
+ 
+ /*   TB    */
+   @media screen and (min-width: 429px) and (max-width: 960px){ 
+    .p-grid{
+        width: 70.0vw;
+        gap: clamp(2px, 1.0vw, 20px);
+
+        >h2{
+            font-size: 32px;
+        }
+    }
+
+    .p-grid__wrapper{
+        gap: 20px;
+
+    }
+    .p-gridSkill{
+        display: grid;
+        grid-template-columns: repeat(2 , minmax(0, 1fr));
+    }
+    .p-grid__item{
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+}
+      /*   PC    */
+      @media screen and (min-width: 961px) {
+        .p-grid{
+            width: 70.0vw;
+
+            >h2{
+                font-size: 32px;
+            }
+        }
+
+       
+        .p-grid__wrapper{
+            grid-template-columns: repeat(4 , minmax(0, 1fr));
+            gap: 1.0vh;
+
+        }
+        .p-gridSkill{
+            display: grid;
+            grid-template-columns: repeat(2 , minmax(0, 1fr));
+        }
+        .p-grid__item{
+            margin-bottom: 5px;
+            padding-top: 10px;
+
+            >img{
+                width: 2.5vw;
+            }
+        }
+        .p-grid__item--php img{
+            width: 3.0vw;
+        }
+        .p-grid__item--git img{
+            width: 4.0vw;
+        }
+
+ }

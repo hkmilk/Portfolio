@@ -1,0 +1,16 @@
+.c-ProjectImg {
+        max-height: none;
+        width: 100%;
+
+		&--other{
+			margin-top: 30px;
+		}
+    }	
+/*  TB  PC    */
+   @media screen and (min-width: 429px) {
+.c-ProjectImg {
+		&--other{
+			margin-top: 70px;
+		}
+	}
+}

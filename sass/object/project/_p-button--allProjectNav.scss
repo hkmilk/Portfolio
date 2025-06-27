@@ -1,0 +1,18 @@
+.p-button--allProjectNav{
+    margin-bottom: 0;
+}
+ /*   TB    */
+ @media screen and (min-width: 429px) and (max-width: 960px){
+    .p-button--allProjectNav{
+        height: auto;
+     }
+ }
+
+
+ /*   PC    */
+ @media screen and (min-width: 961px) {
+    .p-button--allProjectNav{
+       height: auto;
+    }
+
+}

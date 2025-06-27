@@ -1,0 +1,27 @@
+	.c_point {
+        color: #ffffff;
+        background-color: #000000;
+        height: 50px;
+		width: 120px;
+		margin: 0;
+		text-align: center;
+		align-items: normal;
+		padding: 3px 10px 3.5px 10px;
+
+			&--other {
+		margin: 10vh 0 0 0;
+      }
+    }
+
+
+/*   TB  PC    */
+  @media screen and (min-width: 429px) {
+.c_point {
+		margin: 0;
+
+		     &--other {
+		margin: 10vh 0 0 0;
+
+    }
+}
+  }

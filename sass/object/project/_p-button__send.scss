@@ -1,0 +1,11 @@
+.p-button__send{
+    margin-top: 6.0vh;
+}
+ /*   TB    */
+ @media screen and (min-width: 429px) and (max-width: 960px){
+.p-button__send{
+    margin: 0 auto;
+    margin-top: 6.0vh;
+    margin-bottom: 3.0vh;
+}
+ }

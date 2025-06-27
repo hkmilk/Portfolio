@@ -1,0 +1,95 @@
+   /*   SP    */
+
+    .p-navPageWrapper {
+        display: grid;
+        grid-template-columns: 6.5vw 1fr;
+        grid-template-rows: 2fr;
+        color: #121212;
+        position: relative;
+        height: 47.2vh;
+        font-family: "League Spartan";
+        top: 11.4vh;
+        left: 37px;
+    }
+    .p-verticalText{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1px;
+        padding-right: 6px;
+        padding-top: 10px;
+    }
+    .p-verticalText span {
+        display: inline-block;
+        transform: rotate(270deg);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 0.7;
+      }
+
+
+      .p-navMenu{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+         font-weight: bold;
+         font-size: 48px;
+         line-height:1.2;
+    
+      }
+      .p-navMenu li:hover {
+         background-image: linear-gradient(45deg,#F2EDE9, #DED8D3);
+         -webkit-background-clip: text;
+         background-clip: text;
+         -webkit-text-fill-color: transparent;
+      }
+
+
+      .p-navContact {
+        grid-column:   1 / 3;
+        grid-row: 2 / 3;
+        padding-top: 9.2vh;
+        align-items: flex-end;
+      }
+      .p-navIcon {
+        padding-top: 3.0vh;
+
+         a svg{
+        color: #121212;
+        width: 25px;
+      }
+       
+      }
+     
+    
+
+
+   /*   TB    */
+   @media screen and (min-width: 429px) and (max-width: 960px){ 
+    .p-navPageWrapper {
+        top: 25.4vh;
+        left: 18vw;
+    }
+    .p-verticalText{
+        padding-right: 3.3vw;
+    }
+
+   }
+      /*   PC    */
+      @media screen and (min-width: 961px) {
+    .p-navPageWrapper {
+        display: flex;
+        height: 30.2vh;
+        top: 25.4vh;
+        left: clamp(160px, 26.8vw, 270px);
+      }
+      .p-verticalText {
+        padding-right: 3.3vw;
+
+      }
+      .p-navContact {
+        padding-left: 20.0vw;
+        padding-top: 22.0vh;
+      }
+    }

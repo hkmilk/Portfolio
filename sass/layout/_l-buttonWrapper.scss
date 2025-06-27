@@ -1,0 +1,31 @@
+.l-buttonWrapper {
+    display: block;
+    height: 24.8vh;
+    padding-top: 6.0vh;
+    padding-bottom: 6.0vh;
+}
+ /*   TB    */
+ @media screen and (min-width: 429px) and (max-width: 960px){
+.l-buttonWrapper {
+    display: flex;
+    width: 70.0vw;
+    height: 24.8vh;
+    padding-top: 8.0vh;
+    padding-bottom: 10.0vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+ }
+ /*   PC    */
+ @media screen and (min-width: 961px) {
+.l-buttonWrapper {
+    display: flex;
+    width: 530px;
+    height: 24.8vh;
+    padding-top: 8.0vh;
+    padding-bottom: 10.0vh;
+    margin: 0 auto;
+    justify-content: center;
+ }
+
+}

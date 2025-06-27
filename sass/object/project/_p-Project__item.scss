@@ -1,0 +1,23 @@
+.p-gridProject__item {
+    width: 80vw;
+    position: relative;
+}
+.ProjectImg{
+    width: 100%;
+    height: auto;
+}
+
+  /*   TB  PC    */
+  @media screen and (min-width: 429px) {
+    .p-Project__item {
+        height: 100%;
+      }
+
+    .p-Project__pcItem{
+        height: 100%;
+        width: 100%;
+        position: relative;
+
+    }
+
+ }

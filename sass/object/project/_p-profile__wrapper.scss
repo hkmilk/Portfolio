@@ -1,0 +1,31 @@
+.p-profile__wrapper{
+    height: auto;
+    width: 70vw;
+}
+label{
+    font-family: "League Spartan";
+    font-weight: 700;
+    font-size: 16px;
+}
+.c-contactForm__group{
+    padding-bottom: 2.0vh;
+
+}
+input,
+textarea {
+    display: block;
+    border: none;
+    border-bottom: solid 2px;
+    width: 80vw;
+    background: transparent;
+    outline: none;
+    padding-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+  }
+textarea::placeholder{
+    line-height: 70px;
+}
+
